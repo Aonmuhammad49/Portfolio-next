@@ -4,7 +4,7 @@ export const BaseInfo = {
   position: "Full Stack Web Developer",
   description:
     "I’m a Full Stack Developer with hands-on experience in building responsive web apps using React, Node.js, and MongoDB. I write clean, efficient code and enjoy solving real-world problems through tech. I'm eager to contribute to dynamic teams and grow through real industry experience",
-  profilePic: "/images/hero.jpg",
+  profilePic: "https://i.ibb.co/twtcWjfm/hero.jpg",
 };
 
 export const aboutInfo = {
@@ -72,32 +72,32 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    image: "/images/p7.png",
+    image: "https://ibb.co/GQbkN4bN",
     url: "https://wdw-ecom.vercel.app/",
   },
   {
     id: 2,
-    image: "/images/p2.png",
+    image: "https://ibb.co/tp5Rq6hn",
     url: "https://rad-pie-5d3fee.netlify.app/",
   },
   {
     id: 3,
-    image: "/images/p3.jpg",
+    image: "https://ibb.co/PGHsVLtM",
     url: "https://agency-opal-eight.vercel.app/",
   },
   {
     id: 4,
-    image: "/images/p4.png",
+    image: "https://ibb.co/JR1FWs48",
     url: "https://burger-pearl.vercel.app/",
   },
   {
     id: 5,
-    image: "/images/p5.png",
+    image: "https://ibb.co/r2LvLkgX",
     url: "https://job-chi-ruby.vercel.app/",
   },
   {
     id: 6,
-    image: "/images/p6.png",
+    image: "https://ibb.co/R4hyH1ZD",
     url: "https://game-ecommerce-yt.vercel.app/",
   },
 ];
