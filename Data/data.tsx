@@ -1,21 +1,23 @@
 // Data/data.ts
+
 export const BaseInfo = {
   name: "Aon Muhammad",
   position: "Full Stack Web Developer",
   description:
-    "I’m a Full Stack Developer with hands-on experience in building responsive web apps using React, Node.js, and MongoDB. I write clean, efficient code and enjoy solving real-world problems through tech. I'm eager to contribute to dynamic teams and grow through real industry experience",
+    "I’m a Full Stack Developer with hands-on experience in building responsive web apps using React, Node.js, and MongoDB. I write clean, efficient code and enjoy solving real-world problems through tech. I'm eager to contribute to dynamic teams and grow through real industry experience.",
   profilePic: "https://i.ibb.co/9mWDJdw3/hero.jpg",
 };
 
 export const aboutInfo = {
-  title: "Crafting Web Application with Passion and Precision",
+  title: "Crafting Web Applications with Passion and Precision",
   description:
-"At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+    "At WebDev Warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals.",
   client: "50+",
   experience: "3+",
   project: "200+",
   website: "100+",
 };
+
 export const servicesData = [
   {
     id: 1,
@@ -64,8 +66,9 @@ export const servicesData = [
     title: "Website Management",
     description: "Easy-to-use CMS for full site control.",
     icon: "https://i.ibb.co/ynGWX4Z8/s8.png",
-  }
+  },
 ];
+
 export const projectData = [
   {
     id: 1,
@@ -103,7 +106,7 @@ export const skillsData = [
   {
     id: 1,
     title: "HTML",
-    image: "https://i.ibb.co/Q3hKxqmD/react.png",
+    image: "https://i.ibb.co/NdVJLpDg/html.png",
     percent: "70%",
   },
   {
@@ -127,7 +130,7 @@ export const skillsData = [
   {
     id: 5,
     title: "React",
-    image: "https://i.ibb.co/NdVJLpDg/html.png",
+    image: "https://i.ibb.co/Q3hKxqmD/react.png",
     percent: "70%",
   },
   {
@@ -145,13 +148,13 @@ export const skillsData = [
   {
     id: 8,
     title: "Firebase",
-    image: "https://i.ibb.co/xSsVP9jn/python.png",
+    image: "https://i.ibb.co/xSsVP9jn/firebase.png",
     percent: "75%",
   },
   {
     id: 9,
     title: "Python",
-    image: "https://i.ibb.co/273T13dp/firebase.png",
+    image: "https://i.ibb.co/273T13dp/python.png",
     percent: "20%",
   },
   {
@@ -166,7 +169,7 @@ export const clientReviews = [
   {
     name: "John Doe",
     review:
-      "Exceptional service! The team delivered exactly what we needed on time. Very professional",
+      "Exceptional service! The team delivered exactly what we needed on time. Very professional.",
     rating: 5,
     profession: "Marketing Manager",
     image: "https://i.ibb.co/d4sjXCtZ/u1.jpg",
