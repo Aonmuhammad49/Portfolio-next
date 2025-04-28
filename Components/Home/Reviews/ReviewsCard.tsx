@@ -21,7 +21,7 @@ const ReviewsCard = ({ review }: Props) => {
       
       {/* Review Content */}
       <div className="p-6 flex flex-col flex-grow">
-        <Image src="/images/q.png" alt="quote-start" height={50} width={50} />
+        <Image src="https://i.ibb.co/DHsYsWX2/images/q.png" alt="quote-start" height={50} width={50} />
         <p className="text-white opacity-70 flex-grow mt-4">{clientReview}</p>
         <div className="flex justify-end mt-4">
           <Image src="/images/q.png" alt="quote-end" height={50} width={50} />

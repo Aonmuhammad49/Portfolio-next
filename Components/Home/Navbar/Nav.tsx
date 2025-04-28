@@ -36,9 +36,9 @@ const Nav = ({ openNav }: Props) => {
       <Image
         src="https://i.ibb.co/Z6M6S9K3/Logo1.png" // ✅ now PNG with transparent background
         alt="LOGO"
-        width={150}
-        height={150}
-        className="ml-[-1.5rem] sm:ml-0 bg-transparent"
+        width={90}
+        height={90}
+        className="ml-4 sm:ml-0 bg-transparent"
       />
         <div className='flex items-center space-x-10'>
           <div className='hidden lg:flex items-center space-x-8'>

@@ -4,7 +4,7 @@ export const BaseInfo = {
   position: "Full Stack Web Developer",
   description:
     "I’m a Full Stack Developer with hands-on experience in building responsive web apps using React, Node.js, and MongoDB. I write clean, efficient code and enjoy solving real-world problems through tech. I'm eager to contribute to dynamic teams and grow through real industry experience",
-  profilePic: "/images/hero.jpg",
+  profilePic: "https://i.ibb.co/9mWDJdw3/hero.jpg",
 };
 
 export const aboutInfo = {
@@ -16,11 +16,6 @@ export const aboutInfo = {
   project: "200+",
   website: "100+",
 };
-
-// data/servicesData.ts
-
-// data/servicesData.ts
-
 export const servicesData = [
   {
     id: 1,
@@ -71,39 +66,35 @@ export const servicesData = [
     icon: "https://i.ibb.co/ynGWX4Z8/s8.png",
   }
 ];
-
-
-
-
 export const projectData = [
   {
     id: 1,
-    image: "/images/p7.png",
+    image: "https://i.ibb.co/93S1rDG0/p7.png",
     url: "https://wdw-ecom.vercel.app/",
   },
   {
     id: 2,
-    image: "/images/p2.png",
+    image: "https://i.ibb.co/ds3VGZSQ/p2.png",
     url: "https://rad-pie-5d3fee.netlify.app/",
   },
   {
     id: 3,
-    image: "/images/p3.jpg",
-    url: "https://agency-opal-eight.vercel.app/",
+    image: "https://i.ibb.co/fdrgjgvX/p3.jpg",
+    url: "https://rad-pie-5d3fee.netlify.app/",
   },
   {
     id: 4,
-    image: "/images/p4.png",
+    image: "https://i.ibb.co/GQgWkMT0/p4.png",
     url: "https://burger-pearl.vercel.app/",
   },
   {
     id: 5,
-    image: "/images/p5.png",
+    image: "https://i.ibb.co/h5Ds4tC/p5.png",
     url: "https://job-chi-ruby.vercel.app/",
   },
   {
     id: 6,
-    image: "/images/p6.png",
+    image: "https://i.ibb.co/gZWrJhk9/p6.png",
     url: "https://game-ecommerce-yt.vercel.app/",
   },
 ];
@@ -111,62 +102,62 @@ export const projectData = [
 export const skillsData = [
   {
     id: 1,
-    title: "React",
-    image: "/images/react.svg",
+    title: "HTML",
+    image: "https://i.ibb.co/Q3hKxqmD/react.png",
     percent: "70%",
   },
   {
     id: 2,
     title: "CSS",
-    image: "/images/css.svg",
-    percent: "70%",
+    image: "https://i.ibb.co/d0KZKFgd/css.png",
+    percent: "60%",
   },
   {
     id: 3,
     title: "JavaScript",
-    image: "/images/js.svg",
-    percent: "60%",
+    image: "https://i.ibb.co/wNRQRH8q/js.png",
+    percent: "75%",
   },
   {
     id: 4,
     title: "TypeScript",
-    image: "/images/ts.svg",
-    percent: "75%",
+    image: "https://i.ibb.co/ynKxPStz/ts.png",
+    percent: "85%",
   },
   {
     id: 5,
-    title: "HTML",
-    image: "/images/html.svg",
-    percent: "85%",
+    title: "React",
+    image: "https://i.ibb.co/NdVJLpDg/html.png",
+    percent: "70%",
   },
   {
     id: 6,
     title: "Node JS",
-    image: "/images/node.svg",
-    percent: "60%",
+    image: "https://i.ibb.co/27PPYszM/node.png",
+    percent: "40%",
   },
   {
     id: 7,
     title: "MongoDB",
-    image: "/images/mongo.svg",
+    image: "https://i.ibb.co/xyCs1q7/mongo.png",
     percent: "50%",
   },
   {
     id: 8,
-    title: "Python",
-    image: "/images/python.svg",
-    percent: "20%",
+    title: "Firebase",
+    image: "https://i.ibb.co/xSsVP9jn/python.png",
+    percent: "75%",
   },
   {
     id: 9,
-    title: "Firebase",
-    image: "/images/firebase.svg",
-    percent: "75%",
+    title: "Python",
+    image: "https://i.ibb.co/273T13dp/firebase.png",
+    percent: "20%",
   },
   {
     id: 10,
     title: "Vue",
-    image: "/images/vue.svg",
+    image: "https://i.ibb.co/0ycmsT9S/Vue.png",
     percent: "20%",
   },
 ];
@@ -178,7 +169,7 @@ export const clientReviews = [
       "Exceptional service! The team delivered exactly what we needed on time. Very professional",
     rating: 5,
     profession: "Marketing Manager",
-    image: "/images/u1.jpg",
+    image: "https://i.ibb.co/d4sjXCtZ/u1.jpg",
   },
   {
     name: "Jane Smith",
@@ -186,7 +177,7 @@ export const clientReviews = [
       "Highly skilled developers who understand the client's vision and execute perfectly.",
     rating: 4.8,
     profession: "Business Owner",
-    image: "/images/u2.jpg",
+    image: "https://i.ibb.co/MDGws8hb/u2.jpg",
   },
   {
     name: "Michael Johnson",
@@ -194,7 +185,7 @@ export const clientReviews = [
       "Great communication and excellent results. Our new site performs beautifully.",
     rating: 4.6,
     profession: "Project Coordinator",
-    image: "/images/u3.jpg",
+    image: "https://i.ibb.co/zVLbLZG/u3.jpg",
   },
   {
     name: "Emily Brown",
@@ -202,7 +193,7 @@ export const clientReviews = [
       "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
     rating: 4.9,
     profession: "Creative Director",
-    image: "/images/u4.jpg",
+    image: "https://i.ibb.co/qLcyFKVp/u4.jpg",
   },
 ];
 
@@ -213,7 +204,7 @@ export const blogs = [
     summary:
       "Explore the key web development trends for 2024 and their impact on your business.",
     date: "August 18, 2024",
-    image: "/images/b1.jpg",
+    image: "https://i.ibb.co/vrMMTWX/b1.jpg",
   },
   {
     id: 2,
@@ -221,7 +212,7 @@ export const blogs = [
     summary:
       "Discover why custom web applications are crucial for driving business growth and efficiency.",
     date: "August 10, 2024",
-    image: "/images/b2.jpg",
+    image: "https://i.ibb.co/nN1L7kf2/b2.jpg",
   },
   {
     id: 3,
@@ -229,12 +220,12 @@ export const blogs = [
     summary:
       "Understand how website speed impacts user experience and learn essential optimization tips.",
     date: "July 25, 2024",
-    image: "/images/b3.jpg",
+    image: "https://i.ibb.co/twJ6DNgM/b3.jpg",
   },
 ];
 
 export const contactData = {
-  phone: "+92 3141127475",
+  phone: "+92 321 3011020",
   email: "aon0342chohan@gmail.com",
-  address: "Hyderabad, Pakistan",
+  address: "Sindh Hyderabad, Pakistan",
 };

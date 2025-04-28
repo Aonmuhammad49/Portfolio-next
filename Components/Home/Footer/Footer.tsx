@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="pt-16 pb-16 bg-[#0f0715]">
     <div>
-      <Image src="/images/Logo1.png" alt="logo" width={180} height={180} className="mx-auto" />
+      <Image src="https://i.ibb.co/Z6M6S9K3/Logo1.png" alt="logo" width={100} height={100} className="mx-auto" />
     </div>
     <div className="flex items-center flex-wrap justify-center gap-8 text-white font-bold mt-8">
       <div>Home.</div>
