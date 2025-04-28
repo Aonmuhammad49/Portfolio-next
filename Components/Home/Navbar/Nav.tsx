@@ -34,7 +34,7 @@ const Nav = ({ openNav }: Props) => {
     <div className={`fixed ${NavBg ? 'bg-[#240b39]' : ""} h-[12vh] z-[10] w-full transition-all duration-200`}>
       <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto bg-transparent'>
       <Image
-        src="/images/Logo1.png" // ✅ now PNG with transparent background
+        src="https://i.ibb.co/Z6M6S9K3/Logo1.png" // ✅ now PNG with transparent background
         alt="LOGO"
         width={150}
         height={150}

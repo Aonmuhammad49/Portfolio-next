@@ -44,7 +44,7 @@ const Hero = () => {
           {/* {Image Content} */}
           <div data-aos="zoom-in" data-aos-delay="400" className='mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950
           overflow-x-hidden'>
-            <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={500} height={500}/>
+            <Image src="https://i.ibb.co/mVXX5GnY/hero.jpg" alt={BaseInfo.name} width={500} height={500}/>
           </div>
         </div>
       </div>

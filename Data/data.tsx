@@ -4,100 +4,106 @@ export const BaseInfo = {
   position: "Full Stack Web Developer",
   description:
     "I’m a Full Stack Developer with hands-on experience in building responsive web apps using React, Node.js, and MongoDB. I write clean, efficient code and enjoy solving real-world problems through tech. I'm eager to contribute to dynamic teams and grow through real industry experience",
-  profilePic: "https://i.ibb.co/twtcWjfm/hero.jpg",
+  profilePic: "/images/hero.jpg",
 };
 
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
   description:
-    "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+"At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
   client: "50+",
   experience: "3+",
   project: "200+",
   website: "100+",
 };
 
+// data/servicesData.ts
+
+// data/servicesData.ts
+
 export const servicesData = [
   {
     id: 1,
     title: "Web Applications",
     description: "Custom-built web apps using modern technologies.",
-    icon: "/images/s1.png",
+    icon: "https://i.ibb.co/DPRTFJzJ/s1.png",
   },
   {
     id: 2,
     title: "E-commerce Websites",
     description: "Secure, user-friendly online shopping platforms.",
-    icon: "/images/s2.png",
+    icon: "https://i.ibb.co/yFGYqGN5/s2.png",
   },
   {
     id: 3,
     title: "API Integration",
     description: "Smooth connectivity between apps and services.",
-    icon: "/images/s3.png",
+    icon: "https://i.ibb.co/gF3KhR1X/s3.png",
   },
   {
     id: 4,
     title: "User Interfaces",
     description: "Responsive, intuitive UI for better engagement.",
-    icon: "/images/s4.png",
+    icon: "https://i.ibb.co/3y4twwjv/s4.png",
   },
   {
     id: 5,
     title: "Database Solutions",
     description: "Reliable and scalable data management systems.",
-    icon: "/images/s5.png",
+    icon: "https://i.ibb.co/tMZnZg3w/s5.png",
   },
   {
     id: 6,
     title: "Real-Time Features",
     description: "Live chat, notifications, and instant updates.",
-    icon: "/images/s6.png",
+    icon: "https://i.ibb.co/KpFQQM9L/s6.png",
   },
   {
     id: 7,
     title: "Speed Optimization",
     description: "Faster load times and performance tuning.",
-    icon: "/images/s7.png",
+    icon: "https://i.ibb.co/vCPBmJ7Y/s7.png",
   },
   {
     id: 8,
     title: "Website Management",
     description: "Easy-to-use CMS for full site control.",
-    icon: "/images/s8.png",
+    icon: "https://i.ibb.co/ynGWX4Z8/s8.png",
   }
-]
+];
+
+
 
 
 export const projectData = [
   {
     id: 1,
-    image: "https://ibb.co/GQbkN4bN",
+    image: "/images/p7.png",
     url: "https://wdw-ecom.vercel.app/",
   },
   {
     id: 2,
-    image: "https://ibb.co/tp5Rq6hn",
+    image: "/images/p2.png",
     url: "https://rad-pie-5d3fee.netlify.app/",
   },
   {
     id: 3,
-    image: "https://ibb.co/PGHsVLtM",
+    image: "/images/p3.jpg",
     url: "https://agency-opal-eight.vercel.app/",
   },
   {
     id: 4,
-    image: "https://ibb.co/JR1FWs48",
+    image: "/images/p4.png",
     url: "https://burger-pearl.vercel.app/",
   },
   {
     id: 5,
-    image: "https://ibb.co/r2LvLkgX",
+    image: "/images/p5.png",
     url: "https://job-chi-ruby.vercel.app/",
   },
   {
     id: 6,
-    image: "https://ibb.co/R4hyH1ZD",
+    image: "/images/p6.png",
     url: "https://game-ecommerce-yt.vercel.app/",
   },
 ];
