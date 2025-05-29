@@ -1,4 +1,3 @@
-// Components/Home/Home.tsx
 'use client';
 import React, { useEffect } from 'react';
 import Hero from './Hero/Hero';
@@ -11,7 +10,7 @@ import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import ScrollToTop from '../Helper/ScrollToTop';
-import 'aos/dist/aos.css'; // ✅ AOS CSS
+import 'aos/dist/aos.css';
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -30,14 +29,14 @@ const Home: React.FC = () => {
 
   return (
     <div className='overflow-hidden'>
-      <Hero />
-      <About />
-      <Services />
-      <Project />
-      <Skills />
-      <Reviews />
-      <Blog />
-      <Contact />
+      <section id="Home"><Hero /></section>
+      <section id="About"><About /></section>
+      <section id="Services"><Services /></section>
+      <section id="Projects"><Project /></section>
+      <section id="Skills"><Skills /></section>
+      <section id="Reviews"><Reviews /></section>
+      <section id="Blog"><Blog /></section>
+      <section id="Contacts"><Contact /></section>
       <Footer />
       <ScrollToTop />
     </div>

@@ -1,15 +1,18 @@
-// Components/Helper/SectionHeading.tsx
 import React, { ReactNode } from 'react';
 
-// define props type
 type Props = {
-    children: ReactNode;
+  children: ReactNode;
 };
 
 const SectionHeading = ({ children }: Props) => {
   return (
-    <h1 className='bg-blue-800 w-fit text-center px-4 py-3 mx-auto text-white text-2xl
-    sm:text-3xl md:text-4xl uppercase -rotate-6'>{children}</h1>
+    <h1
+      className='bg-gradient-to-r from-blue-700 to-purple-800 text-white font-bold tracking-wide rounded-xl shadow-lg 
+      px-6 py-4 pt-20 sm:px-10 sm:py-5 text-2xl sm:text-3xl md:text-4xl uppercase w-fit mx-auto 
+      transform -rotate-3 sm:-rotate-2 scroll-mt-[12vh]'
+    >
+      {children}
+    </h1>
   );
 };
 
