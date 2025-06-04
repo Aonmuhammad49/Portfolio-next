@@ -148,13 +148,13 @@ export const skillsData = [
   {
     id: 8,
     title: "Firebase",
-    image: "https://i.ibb.co/xSsVP9jn/firebase.png",
+    image: "https://i.ibb.co/273T13dp/python.png",
     percent: "75%",
   },
   {
     id: 9,
     title: "Python",
-    image: "https://i.ibb.co/273T13dp/python.png",
+    image: "https://i.ibb.co/xSsVP9jn/firebase.png",
     percent: "20%",
   },
   {
