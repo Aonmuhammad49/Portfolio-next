@@ -8,8 +8,13 @@ const SectionHeading = ({ children }: Props) => {
   return (
     <h1
       className='bg-gradient-to-r from-blue-700 to-purple-800 text-white font-bold tracking-wide rounded-xl shadow-lg 
-      px-6 py-4 pt-20 sm:px-10 sm:py-5 text-2xl sm:text-3xl md:text-4xl uppercase w-fit mx-auto 
-      transform -rotate-3 sm:-rotate-2 scroll-mt-[12vh]'
+      px-4 py-3 text-xl 
+      sm:px-8 sm:py-4 sm:text-2xl 
+      md:px-10 md:py-5 md:text-3xl 
+      lg:text-4xl xl:text-5xl 
+      uppercase w-full max-w-fit sm:w-fit mx-auto 
+      transform -rotate-2 sm:-rotate-3 md:-rotate-2 
+      text-center sm:text-left scroll-mt-[12vh]'
     >
       {children}
     </h1>

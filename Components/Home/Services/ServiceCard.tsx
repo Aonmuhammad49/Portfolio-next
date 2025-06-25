@@ -1,20 +1,16 @@
 'use client'
-
 import React from 'react'
 import Tilt from 'react-parallax-tilt'
 import Image from 'next/image'
-
 type Service = {
   id: number
   title: string
   description: string
   icon: string
 }
-
 type Props = {
   service: Service
 }
-
 const ServiceCard = ({ service }: Props) => {
   return (
     <Tilt className="shadow-2xl p-6 rounded-lg bg-[#814ced]">
@@ -31,5 +27,4 @@ const ServiceCard = ({ service }: Props) => {
     </Tilt>
   )
 }
-
 export default ServiceCard
