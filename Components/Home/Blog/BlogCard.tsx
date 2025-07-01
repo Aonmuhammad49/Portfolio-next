@@ -15,7 +15,17 @@ const BlogCard = ({blog}:Props) => {
     const {date,image,summary,title} = blog
   return (
     <div className='bg-indigo-950 rounded-md overflow-hidden'>
-        <Image src={image} alt={title} width={300} height={300} className="w-full h-[250px] object-cover"/>
+        <Image 
+          src={image || '/default-blog.png'} 
+          alt={title} 
+          width={300} 
+          height={300} 
+          className="w-full h-[250px] object-cover"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = '/default-blog.png';
+          }}
+        />
     <div className='p-6'>
         <p className='rounded-sm px-6 py-1.5 bg-rose-500 text-white w-fit '>News</p>
         <h1 className='sm:text-lg text-base cursor-pointer hover:text-gray-100

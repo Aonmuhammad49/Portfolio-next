@@ -8,8 +8,17 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'jumpshare.com', // Add this line
+        hostname: 'jumpshare.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+    ],
+    domains: [
+      'i.ibb.co',
+      'jumpshare.com',
+      'res.cloudinary.com'
     ],
   },
 };

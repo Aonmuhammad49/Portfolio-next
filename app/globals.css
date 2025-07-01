@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html, body {
+    background-color: #0f0715;
+    color: white;
+  }
+}
+
 @layer components {
   .nav_link {
     @apply relative text-base font-medium w-fit block text-white
@@ -25,5 +32,21 @@
   .custom-scroll::-webkit-scrollbar-thumb{
     background-color: #c277fa;
     border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fadeInUp {
+    animation: fadeInUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) both;
   }
 }

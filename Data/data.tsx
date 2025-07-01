@@ -4,14 +4,14 @@ export const BaseInfo = {
   name: "Aon Muhammad",
   position: "Full Stack Web Developer",
   description:
-    "I’m a Full Stack Developer with hands-on experience in building responsive web apps using React, Node.js, and MongoDB. I write clean, efficient code and enjoy solving real-world problems through tech. I'm eager to contribute to dynamic teams and grow through real industry experience.",
+    "I'm a Full Stack Developer with hands-on experience in building responsive web apps using React, Node.js, and MongoDB. I write clean, efficient code and enjoy solving real-world problems through tech. I'm eager to contribute to dynamic teams and grow through real industry experience.",
   profilePic: "https://i.ibb.co/9mWDJdw3/hero.jpg",
 };
 
 export const aboutInfo = {
   title: "Crafting Web Applications with Passion and Precision",
   description:
-    "At WebDev Warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals.",
+    "At WebDev Warriors, we're a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals.",
   client: "50+",
   experience: "3+",
   project: "200+",
@@ -207,7 +207,7 @@ export const blogs = [
     summary:
       "Explore the key web development trends for 2024 and their impact on your business.",
     date: "August 18, 2024",
-    image: "https://i.ibb.co/vrMMTWX/b1.jpg",
+    image: "/Images/b1.jpg",
   },
   {
     id: 2,
@@ -215,7 +215,7 @@ export const blogs = [
     summary:
       "Discover why custom web applications are crucial for driving business growth and efficiency.",
     date: "August 10, 2024",
-    image: "https://i.ibb.co/nN1L7kf2/b2.jpg",
+    image: "/Images/b1.jpg",
   },
   {
     id: 3,
@@ -223,7 +223,7 @@ export const blogs = [
     summary:
       "Understand how website speed impacts user experience and learn essential optimization tips.",
     date: "July 25, 2024",
-    image: "https://i.ibb.co/twJ6DNgM/b3.jpg",
+    image: "/Images/b1.jpg",
   },
 ];
 

@@ -39,7 +39,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#140c1c] rounded-2xl p-6 sm:p-10 max-w-4xl mx-auto">
+    <div className="bg-[#140c1c] rounded-2xl p-6 sm:p-10 max-w-4xl mx-auto shadow-lg h-full">
       <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold text-center">
         Let&apos;s Work Together!
       </h1>
@@ -54,14 +54,14 @@ const ContactForm: React.FC = () => {
             type="text"
             name="name"
             placeholder="First Name"
-            className="flex-1 bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="flex-1 bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 focus:shadow-lg"
             required
           />
           <input
             type="text"
             name="lastName"
             placeholder="Last Name"
-            className="flex-1 bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="flex-1 bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 focus:shadow-lg"
             required
           />
         </div>
@@ -72,14 +72,14 @@ const ContactForm: React.FC = () => {
             type="email"
             name="email"
             placeholder="Email Address"
-            className="flex-1 bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="flex-1 bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 focus:shadow-lg"
             required
           />
           <input
             type="tel"
             name="phone"
             placeholder="Phone Number"
-            className="flex-1 bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="flex-1 bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 focus:shadow-lg"
           />
         </div>
 
@@ -88,7 +88,7 @@ const ContactForm: React.FC = () => {
           name="service"
           id="service"
           defaultValue=""
-          className="w-full bg-[#1e1b24] text-white px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="w-full bg-[#1e1b24] text-white px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 focus:shadow-lg"
           required
         >
           <option value="" disabled>Select a service</option>
@@ -102,7 +102,7 @@ const ContactForm: React.FC = () => {
           rows={6}
           name="message"
           placeholder="Your Message"
-          className="w-full bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="w-full bg-[#1e1b24] text-white placeholder:text-gray-500 px-5 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 focus:shadow-lg"
           required
         ></textarea>
 
@@ -110,7 +110,7 @@ const ContactForm: React.FC = () => {
         <div className="text-center">
           <button
             type="submit"
-            className="bg-[#7947df] hover:bg-[#5c2fb7] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-gradient-to-r from-[#7947df] to-[#5c2fb7] hover:from-[#5c2fb7] hover:to-[#7947df] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105 shadow-md hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-purple-500"
             disabled={isSubmitting}
           >
             {isSubmitting ? 'Sending...' : 'Send Message'}

@@ -3,8 +3,18 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { clientReviews } from '@/Data/data';
+import { clientReviews as fallbackData } from '@/Data/data';
 import ReviewsCard from './ReviewsCard';
+
+type Props = {
+  reviews?: {
+    name: string;
+    review: string;
+    rating: number;
+    profession: string;
+    image: string;
+  }[];
+};
 
 const responsive = {
   superLargeDesktop: {
@@ -25,7 +35,7 @@ const responsive = {
   },
 };
 
-const Slider = () => {
+const Slider = ({ reviews = fallbackData }: Props) => {
   return (
     <Carousel
       arrows={true}
@@ -33,9 +43,9 @@ const Slider = () => {
       autoPlaySpeed={5000}
       infinite
       responsive={responsive}
-      >
-      {clientReviews.map((review) => (
-        <div key={review.image}>
+    >
+      {reviews.map((review, idx) => (
+        <div key={idx}>
           <ReviewsCard review={review} />
         </div>
       ))}
