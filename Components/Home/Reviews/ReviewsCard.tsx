@@ -26,7 +26,7 @@ const ReviewsCard = ({ review }: Props) => {
 
   // Get the profession from various possible properties
   const getProfession = () => {
-    return review.profession || review.job || 'Client';
+    return review.profession || review.job || 'Czzlient';
   };
 
   // Get the review text from various possible properties
@@ -37,6 +37,10 @@ const ReviewsCard = ({ review }: Props) => {
   // Get the rating
   const getRating = () => {
     return review.rating || 5;
+  };
+
+  const getImageUrl = () => {
+    return review.image || review.imageUrl || review.profilePic || '/default-user.png';
   };
 
   return (
@@ -61,15 +65,11 @@ const ReviewsCard = ({ review }: Props) => {
       <div className="bg-gray-100">
         <div className="p-6 flex items-center space-x-6">
           <Image 
-            src={review.imageUrl || '/default-user.png'} 
+            src={getImageUrl()} 
             alt={getName()} 
             width={40} 
             height={40} 
             className="rounded-full"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.src = '/default-user.png';
-            }}
           />
           <div>
             <h1 className="text-lg font-bold text-black">{getName()}</h1>
