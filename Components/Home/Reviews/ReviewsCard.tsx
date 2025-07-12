@@ -19,6 +19,11 @@ type Props = {
 }
 
 const ReviewsCard = ({ review }: Props) => {
+  // Get the image URL from various possible properties
+  const getImageUrl = () => {
+    return review.image || review.imageUrl || review.profilePic || '/default-user.png';
+  };
+
   // Get the name from various possible properties
   const getName = () => {
     return review.name || 'Anonymous';
@@ -26,7 +31,7 @@ const ReviewsCard = ({ review }: Props) => {
 
   // Get the profession from various possible properties
   const getProfession = () => {
-    return review.profession || review.job || 'Czzlient';
+    return review.profession || review.job || 'Client';
   };
 
   // Get the review text from various possible properties
@@ -39,19 +44,15 @@ const ReviewsCard = ({ review }: Props) => {
     return review.rating || 5;
   };
 
-  const getImageUrl = () => {
-    return review.image || review.imageUrl || review.profilePic || '/default-user.png';
-  };
-
   return (
     <div className="bg-[#140c1c] m-4 rounded-md overflow-hidden flex flex-col min-h-[420px]">
       
       {/* Review Content */}
       <div className="p-6 flex flex-col flex-grow">
-      <Image src="/images/q.png" alt="quote-end" height={50} width={50} />
+      <Image src="https://res.cloudinary.com/dwijkyrr2/image/upload/v1752320178/q_k7ikhs.png" alt="quote-end" height={50} width={50} />
         <p className="text-white opacity-70 flex-grow mt-4">{getReviewText()}</p>
         <div className="flex justify-end mt-4">
-          <Image src="/images/q.png" alt="quote-end" height={50} width={50} />
+        <Image src="https://res.cloudinary.com/dwijkyrr2/image/upload/v1752320178/q_k7ikhs.png" alt="quote-end" height={50} width={50} />
         </div>
       </div>
 
@@ -65,11 +66,15 @@ const ReviewsCard = ({ review }: Props) => {
       <div className="bg-gray-100">
         <div className="p-6 flex items-center space-x-6">
           <Image 
-            src={getImageUrl()} 
-            alt={getName()} 
-            width={40} 
-            height={40} 
+            src={getImageUrl()}
+            alt={getName()}
+            width={40}
+            height={40}
             className="rounded-full"
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.src = '/default-user.png';
+            }}
           />
           <div>
             <h1 className="text-lg font-bold text-black">{getName()}</h1>
